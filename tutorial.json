@@ -1,0 +1,2143 @@
+
+{
+    "componentChunkName": "component---src-pages-tutorials-js",
+    "path": "/tutorials/",
+    "result": {
+      "data": {
+        "posts": {
+          "edges": [
+            {
+              "node": {
+                "fields": {
+                  "slug": "/dynamic-programming-part-5/",
+                  "date": "2023-03-14T00:00:00.000Z"
+                },
+                "excerpt": "*Prerequisite: The Modern Law of Dynamic Programming Part 1 & 2. This tutorial is a part of the Data Structures and Algorithms class: Step 0: is it a multi-stage decision making…",
+                "timeToRead": 6,
+                "frontmatter": {
+                  "title": "Dynamic Programming part 5, Sam's DP example 3: Buy and Sell Stock (3 choices)",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2023-03-14T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/dynamic-programming-part-4/",
+                  "date": "2023-03-12T00:00:00.000Z"
+                },
+                "excerpt": "*Prerequisite: The Modern Law of Dynamic Programming Part 1 & 2. This tutorial is a part of the Data Structures and Algorithms class: Step 0: is it a multi-stage decision making…",
+                "timeToRead": 6,
+                "frontmatter": {
+                  "title": "Dynamic Programming part 4, Sam's DP example 2: House Robber (2 choices)",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2023-03-12T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/dynamic-programming-part-3/",
+                  "date": "2023-03-10T00:00:00.000Z"
+                },
+                "excerpt": "*Prerequisite: The Modern Law of Dynamic Programming Part 1 & 2. This tutorial is a part of the Data Structures and Algorithms class: Step 0: is it a multi-stage decision making…",
+                "timeToRead": 6,
+                "frontmatter": {
+                  "title": "Dynamic Programming part 3, Sam's DP example 1: Climbing Stairs (2 choices)",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2023-03-10T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/dynamic-programming-part-2/",
+                  "date": "2023-03-04T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: Problems can be solved by Dynamic Programming How to solve DP problems with Bellman's theory How to solve DP…",
+                "timeToRead": 11,
+                "frontmatter": {
+                  "title": "Dynamic Programming part 2: The Modern Law of Dynamic Programming (Sam's DP)",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2023-03-04T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/dynamic-programming-part-1/",
+                  "date": "2023-02-25T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: Outcomes after this Dynamic Programming (DP) series Prerequisites Introducing The Modern Law of Dynamic…",
+                "timeToRead": 9,
+                "frontmatter": {
+                  "title": "Dynamic Programming part 1: the importance of Depth First Search in DP",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2023-02-25T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/backtracking/",
+                  "date": "2023-01-06T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: Part 1 (14:04): Typical problems solved by Backtracking - virtually any problem Iterative implementation of…",
+                "timeToRead": 10,
+                "frontmatter": {
+                  "title": "Backtracking",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2023-01-06T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/bellman-ford/",
+                  "date": "2023-01-02T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: Typical problems solved by Bellman-Ford algorithm Longest path with Bellman-Ford algorithm The importance of…",
+                "timeToRead": 8,
+                "frontmatter": {
+                  "title": "Bellman-Ford",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2023-01-02T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/topological-sort/",
+                  "date": "2022-12-29T00:00:00.000Z"
+                },
+                "excerpt": "*Prerequisite: Depth First Search. This tutorial is a part of the Data Structures and Algorithms class: What is Topological Sort? Typical problems solved by Topological Sort…",
+                "timeToRead": 5,
+                "frontmatter": {
+                  "title": "Topological Sort",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2022-12-29T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/depth-first-search/",
+                  "date": "2022-11-24T00:00:00.000Z"
+                },
+                "excerpt": "*Prerequisite: Graph data structure. This tutorial is a part of the Data Structures and Algorithms class: Part 1 (05:46): What is Depth First Search algorithm? Part 2 (11:5…",
+                "timeToRead": 10,
+                "frontmatter": {
+                  "title": "Depth First Search algorithm",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2022-11-24T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/breadth-first-search/",
+                  "date": "2022-10-19T00:00:00.000Z"
+                },
+                "excerpt": "*Prerequisite: Graph data structure. This tutorial is a part of the Data Structures and Algorithms class: Part 1 (09:37): What is Breadth First Search algorithm? Breadth First…",
+                "timeToRead": 11,
+                "frontmatter": {
+                  "title": "Breadth First Search algorithm",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2022-10-19T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/sliding-window/",
+                  "date": "2022-10-03T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: A typical problem solved by Sliding Window algorithm Characteristics of problems can be solved by Sliding…",
+                "timeToRead": 5,
+                "frontmatter": {
+                  "title": "Sliding Window algorithm",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2022-10-03T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/two-pointers/",
+                  "date": "2022-09-14T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: A typical problem solved by Two Pointers algorithm Characteristics of problems can be solved by Two Pointers…",
+                "timeToRead": 6,
+                "frontmatter": {
+                  "title": "Two Pointers algorithm",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2022-09-14T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/sort/",
+                  "date": "2022-09-07T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: The best sorting algorithm has Time Complexity of O(nlogn) If we can sort, we (probably) can have top Time…",
+                "timeToRead": 2,
+                "frontmatter": {
+                  "title": "Sorting algorithms",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2022-09-07T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/divide-and-conquer/",
+                  "date": "2022-08-25T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: A typical problem solved by Divide and Conquer algorithm Recursion implementation of sorting an array with…",
+                "timeToRead": 8,
+                "frontmatter": {
+                  "title": "Divide and Conquer algorithm",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2022-08-25T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/greedy/",
+                  "date": "2022-08-15T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: A typical problem solved by Greedy algorithm Characteristics of problems can be solved by Greedy Summary  A…",
+                "timeToRead": 5,
+                "frontmatter": {
+                  "title": "Greedy algorithm",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2022-08-15T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/binary-search/",
+                  "date": "2022-08-04T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: A typical problem solved by Binary Search algorithm Characteristics of problems can be solved by Binary Search…",
+                "timeToRead": 5,
+                "frontmatter": {
+                  "title": "Binary Search algorithm",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2022-08-04T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/recursion--for-while-loop-with-some-overhead/",
+                  "date": "2022-07-26T00:00:00.000Z"
+                },
+                "excerpt": "*Prerequisite: Understanding function call stack and recursion. This tutorial is a part of the Data Structures and Algorithms class: Recursion is simply a FOR/WHILE LOOP Recursion…",
+                "timeToRead": 11,
+                "frontmatter": {
+                  "title": "Recursion, FOR/WHILE LOOP with some overhead",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2022-07-26T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/for-loop-a-almost-guaranteed-brute-force-solution/",
+                  "date": "2022-07-21T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: Why is FOR LOOP a (almost) guaranteed solution? Single FOR LOOP lists all possible options Nested FOR LOOPs…",
+                "timeToRead": 4,
+                "frontmatter": {
+                  "title": "FOR LOOP, a (almost) guaranteed, \"brute force\" solution",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2022-07-21T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/what-is-an-algorithm/",
+                  "date": "2022-06-14T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: The importance of information The only software problem Typical classes of the software problem What is an…",
+                "timeToRead": 3,
+                "frontmatter": {
+                  "title": "What is an Algorithm?",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2022-06-14T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/analytical-problem-solving-skill/",
+                  "date": "2022-06-11T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is an important part of all available courses at SESV: What does this skill offer? Why do we need this skill? What's the secret sauce? Computer: a big problem…",
+                "timeToRead": 9,
+                "frontmatter": {
+                  "title": "Analytical problem solving skill",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Analytical problem solving skill",
+                    "Popular"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2022-06-11T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/graph-data-structure/",
+                  "date": "2022-01-15T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: Why do we need graph Directed, unweighted graph: visual graph <=> code Directed, weighted graph: visual graph…",
+                "timeToRead": 4,
+                "frontmatter": {
+                  "title": "Graph Data Structure",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2022-01-15T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/tree-data-structure-part-5-5-extracting-useful-information-from-tree-using-recursion/",
+                  "date": "2021-07-18T00:00:00.000Z"
+                },
+                "excerpt": "*Prerequisite: Tree data structure part 4/5: understanding function call stack and recursion. This tutorial is a part of the Data Structures and Algorithms class: Extracting useful…",
+                "timeToRead": 7,
+                "frontmatter": {
+                  "title": "Tree data structure part 5/5: extracting useful information from tree using recursion: PreOrder, InOrder, PostOrder and more",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2021-07-18T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/tree-data-structure-part-4-5-understanding-function-call-stack-and-recursion/",
+                  "date": "2021-07-17T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: Understanding function call stack in Javascript Understanding recursion Understanding multiple recursive calls…",
+                "timeToRead": 3,
+                "frontmatter": {
+                  "title": "Tree data structure part 4/5: understanding function call stack and recursion",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2021-07-17T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/tree-data-structure-part-3-5-extracting-useful-information-out-of-tree-using-loop-stack-and-queue/",
+                  "date": "2021-07-16T00:00:00.000Z"
+                },
+                "excerpt": "*Prerequisite: Tree data structure part 2/5: balanced/unbalanced Binary Search Tree. This tutorial is a part of the Data Structures and Algorithms class: Extracting useful…",
+                "timeToRead": 7,
+                "frontmatter": {
+                  "title": "Tree data structure part 3/5: extracting useful information out of tree using Loop, Stack and Queue",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2021-07-16T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/tree-data-structure-part-2-5-balanced-unbalanced-binary-search-tree/",
+                  "date": "2021-07-15T00:00:00.000Z"
+                },
+                "excerpt": "*Prerequisite: Tree data structure part 1/5: Tree and Binary Tree. This tutorial is a part of the Data Structures and Algorithms class: Binary Search Tree (BST) properties Binary…",
+                "timeToRead": 6,
+                "frontmatter": {
+                  "title": "Tree data structure part 2/5: balanced/unbalanced Binary Search Tree",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2021-07-15T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/tree-data-structure-part-1-5-tree-and-binary-tree/",
+                  "date": "2021-07-14T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: *Prerequisite: this tutorial uses many important concepts like  and  presented in Linked List. If you haven't…",
+                "timeToRead": 5,
+                "frontmatter": {
+                  "title": "Tree data structure part 1/5: Tree and Binary Tree",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2021-07-14T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/linked-list-data-structure/",
+                  "date": "2021-06-29T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: Linked list: high level vs. on RAM vs. on code Shallow copy vs. deep copy in Javascript Build Linked List data…",
+                "timeToRead": 5,
+                "frontmatter": {
+                  "title": "Linked List data structure",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2021-06-29T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/priority-queue-data-structure/",
+                  "date": "2021-06-25T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: Priority Queue in real life Build Priority Queue data structure How to insert/delete/access/search data How…",
+                "timeToRead": 4,
+                "frontmatter": {
+                  "title": "Priority Queue data structure",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2021-06-25T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/queue-data-structure/",
+                  "date": "2021-06-24T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: Queue in real life Build Queue data structure How to insert/delete/access/search data How fast to insert/delete…",
+                "timeToRead": 3,
+                "frontmatter": {
+                  "title": "Queue data structure",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2021-06-24T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/stack-data-structure/",
+                  "date": "2021-06-20T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: Stack in real life Build Stack data structure How to insert/delete/access/search data How fast to insert/delete…",
+                "timeToRead": 2,
+                "frontmatter": {
+                  "title": "Stack data structure",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2021-06-20T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/hashtable-hashmap-map-data-structure/",
+                  "date": "2021-06-17T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: How data looks like (print it out!) How to insert/delete/access/search data How fast to insert/delete/access…",
+                "timeToRead": 4,
+                "frontmatter": {
+                  "title": "HashTable/HashMap/Map data structure",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2021-06-17T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/set-data-structure/",
+                  "date": "2021-06-06T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: How data looks like (print it out!) How to insert/delete/access/search data How fast to insert/delete/access…",
+                "timeToRead": 3,
+                "frontmatter": {
+                  "title": "Set data structure",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2021-06-06T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/array-data-structure/",
+                  "date": "2021-06-05T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: How data looks like (print it out!) How to insert/delete/access/search data How fast to insert/delete/access…",
+                "timeToRead": 3,
+                "frontmatter": {
+                  "title": "Array data structure",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2021-06-05T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/string-data-structure/",
+                  "date": "2021-06-02T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: How data looks like (print it out!) How to insert/delete/access/search data How fast to insert/delete/access…",
+                "timeToRead": 2,
+                "frontmatter": {
+                  "title": "String data structure",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2021-06-02T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/what-is-a-data-structure/",
+                  "date": "2021-05-29T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: What is a data structure? What to remember when learning a new data structure? Why are there so many data…",
+                "timeToRead": 5,
+                "frontmatter": {
+                  "title": "What is a data structure?",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2021-05-29T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/big-o-notation-an-easy-way-to-estimate-the-complexity-of-an-algorithm/",
+                  "date": "2021-04-15T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Data Structures and Algorithms class: What is code complexity? Why is it important to measure code complexity? How to calculate Time and Space…",
+                "timeToRead": 7,
+                "frontmatter": {
+                  "title": "Big O notation, an easy way to estimate the complexity of an algorithm",
+                  "tags": [
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Data Structures & Algorithms"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2021-04-15T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/data-structures-and-algorithms/",
+                  "date": "2021-04-13T00:00:00.000Z"
+                },
+                "excerpt": "Course welcome Data Structures and Alogrithms: Big myth: learn to code -> super wrong. You learn to solve problems. You also learn to tell the machine to repeat your solution. is a…",
+                "timeToRead": 11,
+                "frontmatter": {
+                  "title": "Data structures and algorithms",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Popular"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAWJAAAFiQFtaJ36AAACDUlEQVQ4y42UzUuVQRSHx5spfrTJVYugP8BFEVm0sYVIi1DxKkEptA1pU9iudON3+BXWokxIXRWmLYrKrYES5dKQ4qa1UJRIFBea+hz5zWV8uffqgYeZd+bMec+cj3HuoMQ0ZsMtmIS/sANbsAIfoB6OR84ckKxgXgML8BP6oBR64QdUwRAswRxUpLGRFDu4Cz1QDsVwGvphJtArgk/SbXNprumNnYES2IBleWPrU8GZc/BdXtteZ/T6tdo4r+8TcFKemDyEb8HVLH6noBCu6Gy1CxJgMbvt0stdmNX8WIr9O/DLe3hDf7CsxvV9SYo+k42BQR/DuBJYCXWycd02X8OmYpKANXiug/ka70cMXoQ/AVYR/2HUqbYqXWaxcHw5RMfyMG+TbRiDRyqPXo1P4Cl0w2dl3HQei3Zo1bwD3sKiUwdMa+EdvIc38BJGYFDeWSjGtT+mH6zDhPiqxKS8cgFchTK4IKPTER3z9lXwHfdXtt58ocU8jdfgn8opobBMRXQG5JmXEf9dLy9zgjqLacxJkWW/9gw+BtWwopLbP2ypf5Dh0bgXGAxrs1/zZtlIPhDVKkyL5WU4m6GwY0H7ObXrbpgH39Dt2gibPT/Dlb0xeyu70r2NLTLYEXhg0hAp7Fxokm7XYQ9slbJrQR5WOAa1VqtsrsLvI3RY0mXL8E0V+7w6IKH5hLKZleqae/bAjsz+Py6rAAAAAElFTkSuQmCC",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png",
+                        "srcSet": "/static/10d88d469b6b857db8584576dc401a0c/4148e/sesvround.png 1x,\n/static/10d88d469b6b857db8584576dc401a0c/de03e/sesvround.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2021-04-13T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/how-to-write-a-perfect-resume-tell-what-employer-wants-to-hear/",
+                  "date": "2021-04-02T00:00:00.000Z"
+                },
+                "excerpt": "Normally, a hiring manager spends 10 - 20 seconds to read a resume (they have to read probably 20 - 50 of them everyday). That means you only have 10 - 20 seconds to convince the…",
+                "timeToRead": 3,
+                "frontmatter": {
+                  "title": "How to write a perfect resume - Tell what employer wants to hear",
+                  "tags": [
+                    "Apply Job"
+                  ],
+                  "categories": [
+                    "Apply Job"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2021-04-02T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/frequently-used-built-in-global-objects-in-javascript/",
+                  "date": "2020-03-26T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course. In this tutorial, we will quickly go through frequently used global objects and fuctions in…",
+                "timeToRead": 3,
+                "frontmatter": {
+                  "title": "Frequently used built-in global objects in Javascript",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-26T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/javascript-module-package-and-reuse-code/",
+                  "date": "2020-03-25T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course. Why do we package and reuse code? Anything you build, will depend on someone else's code. Why…",
+                "timeToRead": 4,
+                "frontmatter": {
+                  "title": "Javascript module: package and reuse code",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-25T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/javascript-exception-and-error-handling/",
+                  "date": "2020-03-24T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course. Exception is represented by \"Error\" object Exceptions are events that occur during the execution of…",
+                "timeToRead": 4,
+                "frontmatter": {
+                  "title": "Javascript exception and error handling",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-24T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/javascript-expression-and-statement-compose-your-complete-program/",
+                  "date": "2020-03-23T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course. Expression is equivalent to \"phrase\" Expression is JavaScript phrase, combined of , , and , which…",
+                "timeToRead": 7,
+                "frontmatter": {
+                  "title": "Javascript expression and statement: compose your complete program",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-23T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/javascript-operators-compare-modify-and-see-your-data-type/",
+                  "date": "2020-03-22T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course. Arithmetic Operators:         Arithmetic Operators allows us to do simple Arithmetic on our data. If…",
+                "timeToRead": 10,
+                "frontmatter": {
+                  "title": "Javascript operators: compare, modify and see your data type",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-22T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/javascript-constructor-and-inheritance-build-your-own-data-structure/",
+                  "date": "2020-03-21T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course. Purpose to create object blueprint with \"object function\" and \"class\" Purpose: to create your own…",
+                "timeToRead": 4,
+                "frontmatter": {
+                  "title": "Javascript constructor and inheritance: build your own data structure",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-21T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/javascript-function-part-4-4-generator-high-order-function-and-handy-syntax/",
+                  "date": "2020-03-20T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course. Generator function, function can be paused and continued Generator function: is defined like normal…",
+                "timeToRead": 6,
+                "frontmatter": {
+                  "title": "Javascript function part 4/4: generator, high-order function and handy syntax",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-20T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/javascript-function-part-3-4-synchronous-and-asynchronous/",
+                  "date": "2020-03-19T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course. Simple defintion of synchronous and asynchronous operations  synchronous operation asynchronous…",
+                "timeToRead": 8,
+                "frontmatter": {
+                  "title": "Javascript function part 3/4: synchronous and asynchronous",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-19T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/javascript-function-part-2-4-closure/",
+                  "date": "2020-03-18T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course. What is closure? A  (a.k.a lexical closure or function closure), is a technique for implementing…",
+                "timeToRead": 4,
+                "frontmatter": {
+                  "title": "Javascript function part 2/4: closure",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-18T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/javascript-function-part-1-4-a-first-class-citizen/",
+                  "date": "2020-03-17T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course. Function is a \"first-class\" citizen in Javascript A programming language is said to have first-class…",
+                "timeToRead": 8,
+                "frontmatter": {
+                  "title": "Javascript function part 1/4: a \"first-class\" citizen",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-17T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/javascript-built-in-data-structure-object/",
+                  "date": "2020-03-16T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course. What is Javascript object?  is the backbone data structure of Javasscript because of its usefulness…",
+                "timeToRead": 5,
+                "frontmatter": {
+                  "title": "Javascript built-in data structure - Object",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-16T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/javascript-built-in-data-structure-boolean/",
+                  "date": "2020-03-15T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course.  is a data structure to represent logical values. It only has two values:  and . Boolean is usually…",
+                "timeToRead": 2,
+                "frontmatter": {
+                  "title": "Javascript built-in data structure - Boolean",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-15T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/javascript-built-in-data-structure-null-and-undefined/",
+                  "date": "2020-03-14T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course. Both  and  data type are used to represent an . The biggest difference is, if  is used, it's usually…",
+                "timeToRead": 1,
+                "frontmatter": {
+                  "title": "Javascript built-in data structure - null and undefined",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-14T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/javascript-built-in-data-structure-set/",
+                  "date": "2020-03-13T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course. What is set and what it's used for?  is an none-ordered collection of information (string, number…",
+                "timeToRead": 5,
+                "frontmatter": {
+                  "title": "Javascript built-in data structure - Set",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-13T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/javascript-built-in-data-structure-array-part-3-3/",
+                  "date": "2020-03-12T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course. Javascript built-in data structure - Array, part 1/3 part 2/3, part 3/3 (current). Filter array…",
+                "timeToRead": 11,
+                "frontmatter": {
+                  "title": "Javascript built-in data structure - Array, part 3/3",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-12T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/javascript-built-in-data-structure-array-part-2-3/",
+                  "date": "2020-03-11T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course. Javascript built-in data structure - Array, part 1/3 part 2/3 (current), part 3/3. Get length of an…",
+                "timeToRead": 8,
+                "frontmatter": {
+                  "title": "Javascript built-in data structure - Array, part 2/3",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-11T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/javascript-built-in-data-structure-array-part-1-3/",
+                  "date": "2020-03-10T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course. Javascript built-in data structure - Array, part 1/3 (current) part 2/3, part 3/3. What is array and…",
+                "timeToRead": 7,
+                "frontmatter": {
+                  "title": "Javascript built-in data structure - Array, part 1/3",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-10T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/run-pattern-matching-with-built-in-javascript-regex-and-string-methods/",
+                  "date": "2020-03-09T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course. In previous lecture, we have learn to build the pattern and regex (Regular Expression) for matching…",
+                "timeToRead": 6,
+                "frontmatter": {
+                  "title": "Run pattern matching with built-in Javascript Regex and String methods",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-09T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/pattern-matching-and-regular-expression-in-javascript/",
+                  "date": "2020-03-08T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course. Pattern matching for string A pattern is simply any sequence of characters you create, for example…",
+                "timeToRead": 10,
+                "frontmatter": {
+                  "title": "Pattern matching and Regular Expression in Javascript",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-08T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/javascript-built-in-data-structure-string/",
+                  "date": "2020-03-07T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course. Declaring a string variable String is usually known as text in real life. Like number, string is one…",
+                "timeToRead": 5,
+                "frontmatter": {
+                  "title": "Javascript built-in data structure - String",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-07T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/javascript-built-in-data-structure-number/",
+                  "date": "2020-03-06T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course. What is a data structure? You might recall our ultimate purpose is to process and return useful…",
+                "timeToRead": 5,
+                "frontmatter": {
+                  "title": "Javascript built-in data structure - Number",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-06T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/setting-up-your-study-environment-and-mentality/",
+                  "date": "2020-03-05T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course.  Getting things done without knowing everything Human knowledge about computer is estimated around…",
+                "timeToRead": 6,
+                "frontmatter": {
+                  "title": "Setting up your study environment and mentality",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-05T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/basic-javascript-lexicon-and-syntax/",
+                  "date": "2020-03-05T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course. Whitespace Is insignificant unless the one between words. Comments are ignored comments when…",
+                "timeToRead": 5,
+                "frontmatter": {
+                  "title": "Basic Javascript lexicon and syntax",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-05T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/programming-with-javascript-in-a-big-picture/",
+                  "date": "2020-03-04T00:00:00.000Z"
+                },
+                "excerpt": "This tutorial is a part of the Learn everything about Javascript in one course.  What is computing? Computing can be thought collectively as a 3-phase process that happens as…",
+                "timeToRead": 6,
+                "frontmatter": {
+                  "title": "Programming with Javascript in a big picture",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-04T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            },
+            {
+              "node": {
+                "fields": {
+                  "slug": "/learn-everything-about-javascript-in-one-course/",
+                  "date": "2020-03-03T00:00:00.000Z"
+                },
+                "excerpt": "Course welcome We are pleased to have you in this course. Javascript is the most popular language of the world (Github). There are abundant of well paid jobs with Javacript skill…",
+                "timeToRead": 24,
+                "frontmatter": {
+                  "title": "Learn everything about Javascript in one course",
+                  "tags": [
+                    "javascript",
+                    "fundamentals"
+                  ],
+                  "categories": [
+                    "Javascript",
+                    "Frontend",
+                    "Backend",
+                    "Popular"
+                  ],
+                  "thumbnail": {
+                    "childImageSharp": {
+                      "fixed": {
+                        "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADFklEQVQ4y4VVSU8UQRTugaMHLlz8DaIwyBZkHWPEGeieAY0HJUSuxsTEhIuJB8ETRMJBXBITFK8evAoXY2I0hGCCgwONrDrAALOwKXRTz/dVd016gIROXup1V9VXX31vaU3zPKkZXUuZhvJ9bPmpGSM/M2v4tmbDGnznm+7DmrSpyz3HHgnkTmxEg/DztVMeF9iz38gFVGPaNPJc/wxbO9sQ2wjbKNswWydbgcPQ8OWCsp8yc8B8rn+DbdGOtxGtthFG5R+utBHPxdk6sDZjhnMISaobUyEvsy5s+rsYwUbLYzbG5LRu7c6HGfw65nu8TLN6Ks3ADGC8QACAg0Hbv6QvGEhszxlibyFM/B3gNq1J0E4vhqYi5mq26DKTYImoLpYmmgUfwIzDtDDeLCY/BcVaVMeh9g4z5bUJtsIsloddO3TihdZmTKfDeES8HQzQ5UApbTH4y6cNVF9XSmXlJfSoq0bsL4dpc1o/cFnezbJEbrkvQxCdc8vaiOlCrETEq/5Gqqry0+y3EJ0rukC9j+to/adO0c9B2nKksECCx/eulnkaktYFHFEMAWjHI/R6oJGqq/2UmNLpzu1KKq8oof4n9bQy2SK1TbI0B79bATihgqOhAlzAUfc0m68saL2V3r0IUAWDZFhD6Pi8r4Eqq0ro1s0KQpCg4/6yBPyeBfRceVisOgyZkYA9fHCJamv9tM4Mx0ev0e6CQX3ddVR0vlgGi6NuW38k4AcPYDYonWDImyyOJF29clEU+4vpzbMArf5ooWBTGdXU+KUEg70NYnfeAEsVlPueoGTTpgAVsMdpw+xsMIp9CYmdeee6c2PNNPaxScx8DYk9TiFcd3sOo57kfWe9KZhlyZMduDYS999S2MYVoRUSm4GRKoqZrBpKSHb3JIbpSKel3ZJRdcygPbgGTseVVNkhogDCN8y5YAPHSs9b2Bkzonx0lASAoes+pwZMNghHs6RidrRbndS+lKaFqAAkLfIMqYFoIgBKs6Pty9MPDe1IXzu9wZpGToNNx1pO7tqq86pfAMoJTJR5fwGpE34B/wEgbi1Y5n1kcAAAAABJRU5ErkJggg==",
+                        "width": 150,
+                        "height": 150,
+                        "src": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png",
+                        "srcSet": "/static/5e267e2ee412a23e797106ee564145a0/4148e/js.png 1x,\n/static/5e267e2ee412a23e797106ee564145a0/de03e/js.png 1.5x"
+                      }
+                    }
+                  },
+                  "date": "2020-03-03T00:00:00.000Z",
+                  "template": "post"
+                }
+              }
+            }
+          ]
+        },
+        "categories": {
+          "group": [
+            {
+              "fieldValue": "Analytical problem solving skill",
+              "totalCount": 1
+            },
+            {
+              "fieldValue": "Apply Job",
+              "totalCount": 1
+            },
+            {
+              "fieldValue": "Backend",
+              "totalCount": 25
+            },
+            {
+              "fieldValue": "Data Structures & Algorithms",
+              "totalCount": 35
+            },
+            {
+              "fieldValue": "Frontend",
+              "totalCount": 25
+            },
+            {
+              "fieldValue": "Javascript",
+              "totalCount": 26
+            },
+            {
+              "fieldValue": "Popular",
+              "totalCount": 3
+            }
+          ]
+        }
+      },
+      "pageContext": {
+        
+      }
+    }
+  }
